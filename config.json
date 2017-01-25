@@ -1,0 +1,11 @@
+{
+    "token": "<YOUR_SLACK_TOKEN>",                            // Slack token
+    "storageLocation": "data",                                // Where to store data?
+    "adminContact": "@admin",                                 // Who's the admin?
+    "miab": {                                                 // Mail-in-a-box settings:
+        "domain": "box.your-domain.com",                          // Domain for the box
+        "emailDomain": "your-domain.com",                         // Domain for email addresses
+        "username": "mail-bot@your-domain.com",                   // Admin account
+        "password": "<PASSWORD>"
+    }
+}

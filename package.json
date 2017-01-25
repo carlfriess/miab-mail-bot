@@ -1,0 +1,16 @@
+{
+  "name": "miab-mail-bot",
+  "version": "1.1.0",
+  "description": "Manages email accounts on a Mail-in-a-Box server for Slack team members.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlfriess/miab-mail-bot.git"
+  },
+  "author": "Carl Friess <carl@carlfriess.com> (http://carlfriess.com/)",
+  "dependencies": {
+    "botkit": "latest",
+    "request": "latest",
+    "password-generator": "latest"
+  }
+}
