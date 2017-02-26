@@ -179,7 +179,7 @@ var convo_askFullName = function(response, convo) {
         "`<first name>.<last name>@" + config.miab.emailDomain + "`");
     convo.ask("What is your first name?", function(response, convo) {
         email = response.text.replace(/\W/g, '').toLowerCase();
-        convo.ask("Great? What about your last name?", function(response, convo) {
+        convo.ask("Great! What about your last name?", function(response, convo) {
             email += "." + response.text.replace(/\W/g, '').toLowerCase() + "@"
                 + config.miab.emailDomain;
             miabEmailExists(email, function(exists) {
